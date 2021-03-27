@@ -1,0 +1,125 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #0000005e;
+    padding-left: 60px;
+    padding-right:60px;
+    grid-gap:120px;
+}
+
+.form_box{
+
+    padding-top:25px;
+}
+.form_box input[type=text]{
+width: 65%;
+padding:5px;
+border:1px  solid #0000001c; 
+box-sizing:border-box;
+}
+.form_box input[type=submit]{
+    width:30%;
+    background-color:rgb(255, 211, 14);
+    width: 30%;
+    padding:5px;
+    color:#ac0000ff;
+    border:none;
+}
+.grid-container-menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #0000001c;
+    padding:60px;
+    grid-gap:60px;
+}
+a img{
+    width:100%;
+}
+.grid-container-gap1{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #0000005e;
+    padding-bottom:80px;
+    grid-gap:60px;
+    padding:60px;
+}
+.item-text1 h2{
+    color:#fff;
+    font-size:30px;
+}
+.item-text1 p{
+    color:#fff;
+    font-size:20px;
+}
+.item-text1 button{
+font-size: 10px;
+width: 200px;
+height: 50px;
+margin-right:35px;
+font-size:20px;
+border:solid 5px red;
+background-color:rgba(0, 255, 255, 0.2);
+}
+.txt-paragraph{
+padding:60px;
+border-top:solid 60px #000000a9;
+font-size:20px;
+}
+.txt-paragraph h2{
+    font-size: 30px;
+}
+.text1{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:60px;
+    padding:60px;
+    background-color:#0000001c;
+}
+.block{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #0000005e;
+    padding-bottom:80px;
+    grid-gap:60px;
+    padding:60px;
+}
+.paragraph{
+    font-size:20px;
+
+}
+.paragraph button{
+font-size: 10px;
+width:200px;
+height: 50px;
+margin-right:35px;
+font-size:20px;
+border:solid 5px red;
+background-color:rgba(0, 255, 255, 0.2);
+}
+.txt-paragraph{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#0000001c ;
+}
+.grid-container-footer{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:60px;
+    padding:60px;
+
+}
+.container-footer-form input,textarea,select{
+display:block;
+width: 100%;
+padding:5px;
+background-color: #fff;
+line-height: 40px;
+font-family:"Roboto",sans-serif;
+}
+.container-footer-form input[type=submit]{
+background-color: #ff6600;
+
+}
+.container-footer-form{
+    border:5px,solid,red;
+}
